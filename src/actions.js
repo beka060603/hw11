@@ -11,5 +11,9 @@ const rnd_action = () => ({
   payload: Math.floor(Math.random() * (30 - -20 + 1) + -20)
 })
 
+const rst_action = () => ({
+  type: 'RST'
+})
 
-export {inc_action, dec_action, rnd_action}
+
+export {inc_action, dec_action, rnd_action, rst_action}
